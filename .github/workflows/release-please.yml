@@ -31,9 +31,9 @@ jobs:
         if: ${{ steps.release.outputs.release_created }}
         run: |
           pnpm install && pnpm run build && pnpm run build:jar
-          mv out/keywind.jar out/keywind-{{ steps.release.outputs.major }}.{{ steps.release.outputs.minor }}.{{ steps.release.outputs.patch }}.jar
+          mv out/keywind.jar out/keywind-${{ steps.release.outputs.major }}.${{ steps.release.outputs.minor }}.${{ steps.release.outputs.patch }}.jar
       - name: Upload Release Artifact
         if: ${{ steps.release.outputs.release_created }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: gh release upload ${{ steps.release.outputs.tag_name }} out/keywind-{{ steps.release.outputs.major }}.{{ steps.release.outputs.minor }}.{{ steps.release.outputs.patch }}.jar
+        run: gh release upload ${{ steps.release.outputs.tag_name }} out/keywind-{{ steps.release.outputs.major }}.${{ steps.release.outputs.minor }}.${{ steps.release.outputs.patch }}.jar
