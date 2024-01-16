@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.1](https://github.com/getvoicify/keywind/compare/v1.0.0...v1.0.1) (2024-01-16)
+
+
+### Bug Fixes
+
+* update string interpolation syntax ([215d9a5](https://github.com/getvoicify/keywind/commit/215d9a54f2ed4bc85b6dcefb97d96634f2a49c9e))
+
 ## 1.0.0 (2024-01-16)
 
 
