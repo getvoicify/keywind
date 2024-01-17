@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.3](https://github.com/getvoicify/keywind/compare/v1.0.2...v1.0.3) (2024-01-17)
+
+
+### Bug Fixes
+
+* flex logo wrapper ([cda1210](https://github.com/getvoicify/keywind/commit/cda1210bbebed70efb4c3beb08628e3375a31e4a))
+
 ## [1.0.2](https://github.com/getvoicify/keywind/compare/v1.0.1...v1.0.2) (2024-01-16)
 
 
