@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/getvoicify/keywind/compare/v1.0.3...v1.1.0) (2024-04-04)
+
+
+### Features
+
+* add email theme ([#6](https://github.com/getvoicify/keywind/issues/6)) ([4542ff8](https://github.com/getvoicify/keywind/commit/4542ff83f6ff94c5ee64c117abd297ff9928378f))
+
 ## [1.0.3](https://github.com/getvoicify/keywind/compare/v1.0.2...v1.0.3) (2024-01-17)
 
 
