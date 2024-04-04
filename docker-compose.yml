@@ -1,0 +1,15 @@
+version: '3.8'
+services:
+  keycloak:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    ports:
+      - "8080:8080"
+      - "8443:8443"
+    volumes:
+      - ./out/keywind.jar:/opt/keycloak/providers/keywind.jar
+    environment:
+      KEYCLOAK_ADMIN: admin
+      KEYCLOAK_ADMIN_PASSWORD: admin
