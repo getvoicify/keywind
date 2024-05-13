@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.1](https://github.com/getvoicify/keywind/compare/v1.1.0...v1.1.1) (2024-05-13)
+
+
+### Bug Fixes
+
+* use flexbox for idP links ([2dfe0f1](https://github.com/getvoicify/keywind/commit/2dfe0f199edbd18484dc0d5a9aea6f5a3f801460))
+
 ## [1.1.0](https://github.com/getvoicify/keywind/compare/v1.0.3...v1.1.0) (2024-04-04)
 
 
